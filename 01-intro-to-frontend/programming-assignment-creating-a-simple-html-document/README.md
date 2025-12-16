@@ -44,4 +44,5 @@ My First HTML Document
 - Local servers allow quick previewing during development.
 
 ## Status
-Lab completed successfully.
+Lab completed successfully.  
+**Grade:** 100%
