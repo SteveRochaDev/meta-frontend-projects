@@ -12,8 +12,9 @@ The goal of this assignment is to understand how a valid HTML document is struct
 - Preview an HTML document in a web browser using a local server
 
 ## Project Structure
-├── index.html
-└── README.md
+
+- `index.html`
+- `README.md`
 
 ## Instructions
 
