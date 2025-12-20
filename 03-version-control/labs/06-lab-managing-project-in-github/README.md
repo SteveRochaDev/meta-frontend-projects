@@ -22,6 +22,8 @@ Practice forking a repository, editing files, inspecting diffs, and committing a
 - Practiced editing a file and reviewing changes with `git diff`.
 - Reinforced proper Git workflow for collaborative projects.
 
+**Note:** This lab simulates the fork, edit, and commit workflow. All changes are on the `lab-forking` branch.
+
 ## Status
 Lab completed successfully.  
 **Grade:** 100%
