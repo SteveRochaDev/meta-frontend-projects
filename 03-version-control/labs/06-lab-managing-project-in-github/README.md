@@ -1,10 +1,11 @@
 # 06 - Managing a Project in GitHub
 
 ## Objective
-Practice forking a repository, editing files, inspecting diffs, and committing and pushing changes.
+Practice managing a project in GitHub: forking a repository, editing a file, inspecting diffs, committing, and pushing changes.
 
 ## Files
-- `class.txt` – file used to practice updating content and using `git diff`.
+- `class.txt` – file updated to practice changes.
+- `README.md` – instructions and notes for this lab.
 
 ## Steps Completed
 1. Authenticated GitHub CLI using `gh auth login`.
@@ -12,17 +13,18 @@ Practice forking a repository, editing files, inspecting diffs, and committing a
 3. Forked the class repository to my account.
 4. Cloned the forked repository locally.
 5. Navigated into the repository directory.
-6. Opened `class.txt` and replaced the content.
-7. Used `git diff` to inspect changes.
-8. Added and committed the changes.
-9. Pushed the changes to the forked repository.
+6. Opened `class.txt` and updated its content.
+7. Checked changes using `git diff`.
+8. Added and committed `class.txt`.
+9. Added a note to README.md clarifying that lab changes are on `lab-forking` branch.
+10. Pushed the branch to GitHub.
+11. Merged `lab-forking` into `main`.
+12. Deleted the `lab-forking` branch locally and remotely.
 
 ## Key Takeaways
-- Learned how to fork and clone a repository.
-- Practiced editing a file and reviewing changes with `git diff`.
-- Reinforced proper Git workflow for collaborative projects.
-
-**Note:** This lab simulates the fork, edit, and commit workflow. All changes are on the `lab-forking` branch.
+- Learned how to inspect changes with `git diff`.
+- Practiced committing and pushing changes to a forked repository.
+- Reinforced proper workflow for managing GitHub projects.
 
 ## Status
 Lab completed successfully.  
