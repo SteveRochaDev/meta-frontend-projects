@@ -26,7 +26,7 @@ Practice version control by forking a repository, creating a branch, committing 
 - Opened a pull request to merge changes from a forked repository.
 - Reinforced proper workflow for collaborative version control.
 
-**Note:** This lab simulates the fork and pull request workflow within this repository. The changes for this lab are on the branch `lab-forking`.
+**Note:** This lab simulates the fork and pull request workflow within this repository. All changes have been merged into the `main` branch.
 
 ## Status
 Lab completed successfully.  
