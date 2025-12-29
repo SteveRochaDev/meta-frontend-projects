@@ -1,0 +1,10 @@
+/* Task 1: Hover effect */
+p:hover {
+    background-color: lightgray; /* Quando o mouse passa sobre o parágrafo */
+}
+
+/* Task 2: First-line styling */
+p::first-line {
+    font-size: 1.2em;  /* Aumentar o tamanho da primeira linha */
+    font-weight: bold;  /* Deixar em negrito */
+}
