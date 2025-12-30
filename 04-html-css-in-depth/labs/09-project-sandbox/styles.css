@@ -1,23 +1,76 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+/* General Styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-header, footer {
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FA9F42;
+    padding: 20px;
+    color: white;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main */
+.main {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* First row: full-width banner */
+.banner {
+    grid-column: 1 / -1;
+    background-color: #E0E0E2;
     text-align: center;
-    background-color: #495E57;
-    color: #fff;
-    padding: 10px 0;
+    padding: 50px 20px;
 }
 
-main {
+/* Second row: three columns */
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer with two columns */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FA9F42;
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
-p {
-    font-size: 18px;
-    color: #333;
+.footer-logo {
+    font-weight: bold;
 }

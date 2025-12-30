@@ -1,8 +1,17 @@
-## Project Sandbox
+# Portfolio Sandbox - Little Lemon
 
-This is a personal sandbox to experiment with HTML and CSS.
+## Important Note
+This project is a starter portfolio for the Little Lemon client. The layout follows the course requirements:
 
-### Notes
-- You can use this sandbox multiple times but only for one hour at a time.
-- Make sure to download your files to your computer before the session ends.
-- To continue working later, copy and paste the HTML and CSS code into the template files provided in the sandbox.
+- Header with logo and navigation
+- Main content with two rows:
+  - First row: full-width banner
+  - Second row: three columns with features
+- Footer with two columns:
+  - First column: logo
+  - Second column: copyright info
+- CSS layout using grid
+
+## Status
+Lab completed successfully.  
+**Grade:** 100%
